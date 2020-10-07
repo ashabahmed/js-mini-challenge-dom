@@ -26,6 +26,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
+Change to make sure the script tags were below the body in .html file.
 
 ```
 
@@ -35,7 +36,7 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+Did header.style.color to change color. style.color is a good way to change the color of font for sure.
 ```
 
 ## Deliverable 3
@@ -57,6 +58,7 @@ Create a DOM element that looks like this for each player and append it to the `
 
 **YOUR NOTES**
 ```
+created div and then created h3 and img and appended to div. Then appended div to playerDiv (which was the player-container)
 
 ```
 
@@ -68,5 +70,6 @@ Hint: You can use `querySelector` with [CSS Attribute Selectors](https://develop
 
 **YOUR NOTES**
 ```
+did queryselector(`[data-number='7']`) and assigned to a const and then did .remove()
 
 ```
